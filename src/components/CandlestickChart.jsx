@@ -12,9 +12,9 @@ const CandlestickChart = ({ data,time }) => {
       x: time+index, 
       y: [
         item.Nifty,                     // Open
-        item.Banknifty ,                // High
         item.Finnifty ,                 // Low
-        Math.random()*100000            // closing   
+        item.Banknifty ,                // High
+        Math.random()*60000 ,           // closing   
       ],
     }));
 
