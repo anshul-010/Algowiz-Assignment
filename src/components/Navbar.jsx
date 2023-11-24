@@ -14,10 +14,10 @@ const Navbar = () => {
     },[lastMessage])
     // console.log(data)
   return (
-    <div style={{border:"1px solid", display:"flex",justifyContent:"space-evenly"}}>
-      <h3>Nifty: <span>{data?.Nifty}</span></h3>
-      <h3>BankNifty: <span>{data?.Banknifty}</span></h3>
-      <h3>FinNifty: <span>{data?.Finnifty}</span></h3>
+    <div style={{border:"1px solid gray", display:"flex",justifyContent:"space-evenly"}}>
+      <h3 style={{color:"#493E3E"}}>Nifty: <span style={{color:"#3AEE0E"}}>{data?.Nifty}</span></h3>
+      <h3 style={{color:"#493E3E"}}>BankNifty: <span style={{color:"#3AEE0E"}}>{data?.Banknifty}</span></h3>
+      <h3 style={{color:"#493E3E"}}>FinNifty: <span style={{color:"#3AEE0E"}}>{data?.Finnifty}</span></h3>
     </div>
   )
 }
